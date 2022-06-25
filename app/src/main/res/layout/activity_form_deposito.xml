@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FormDeposito.formDeposito"
+    android:background="@color/blue_light">
+
+    <EditText
+        android:id="@+id/txt_cpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:hint="CPF"
+        android:textColorHint="@color/black"
+        android:textSize="24sp"
+        android:inputType="number"
+        android:maxLength="11" />
+    <EditText
+        android:id="@+id/txt_valor_deposito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:hint="0.00"
+        android:textColorHint="@color/black"
+        android:textSize="24sp"
+        android:inputType="number"
+        android:maxLength="11" />
+    <Button
+        android:id="@+id/bt_depositar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Depositar"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp" />
+
+
+
+</LinearLayout>

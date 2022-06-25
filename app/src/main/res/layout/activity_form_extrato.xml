@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".FormExtrato.formExtrato"
+        android:background="@color/blue_light">
+
+        <EditText
+            android:id="@+id/txt_cpf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:hint="CPF"
+            android:textColorHint="@color/black"
+            android:textSize="24sp"
+            android:inputType="number"
+            android:maxLength="11" />
+
+        <Button
+            android:id="@+id/bt_consultar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Consultar Extrato"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"
+
+            />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/txt_saldo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="30sp"
+            android:textColor="@color/black"/>
+
+        <ListView
+            android:layout_marginTop="20dp"
+            android:id="@+id/lista_extrato"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+</ScrollView>

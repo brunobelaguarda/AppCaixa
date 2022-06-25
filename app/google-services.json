@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "877127653565",
+    "project_id": "caixa-eletronico-803ac",
+    "storage_bucket": "caixa-eletronico-803ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877127653565:android:b86cfd24f444083d447fd4",
+        "android_client_info": {
+          "package_name": "com.example.appcaixa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877127653565-g0ej64td6r95umsg1kecmeqfejvvt2d5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxgyd4zimeOH35nFxyXW6sVfXjmIa6apQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877127653565-g0ej64td6r95umsg1kecmeqfejvvt2d5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
