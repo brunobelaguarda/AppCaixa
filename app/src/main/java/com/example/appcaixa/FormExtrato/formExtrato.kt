@@ -76,7 +76,7 @@ class formExtrato : AppCompatActivity() {
                 if (documento.id.equals(binding.txtCpf.text.toString())) {
                     val cliente = documento.toObject(Deposito::class.java)
                     val saldo = Integer.parseInt(cliente.valor.toString())
-                    binding.txtSaldo.text="Saldo: "+saldo
+                    binding.txtSaldo.text="Saldo: R$"+saldo+",00"
                 }
             }
         }
